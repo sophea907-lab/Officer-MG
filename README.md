@@ -192,7 +192,7 @@ For university evaluation and local testing:
 |---|---|---|
 | **Administrator** | `admin@example.com` | `password123` |
 
-You can also register any new account via `/register` to test the registration workflow.
+Public registration is disabled. Only pre-configured and authorized administrative accounts can sign in to the portal.
 
 ---
 
@@ -347,3 +347,5 @@ tests/Feature/
 - **Simplicity & Code Clarity:** The codebase avoids over-engineered single-page applications (SPAs) and focuses strictly on pure Laravel MVC, standard Blade templates, and clean Eloquent queries so students can easily explain every route, controller method, and database relationship during examination defense.
 - **Relational Integrity:** Foreign key constraints (`restrictOnDelete`) prevent accidental orphan records and mirror real-world administrative standards.
 - **N+1 Prevention:** All list queries utilize eager loading (`with(['department', 'position'])`) for optimal database performance.
+#   O f f i c e r - M G  
+ 
